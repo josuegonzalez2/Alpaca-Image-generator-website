@@ -1,38 +1,132 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* background-color: #282c34; */
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* border: lightblue 5px solid; */
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  /* border: red 5px solid; */
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: white 5px solid; */
+  min-height: 84vh;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for image container */
+.image-container {
+  /* border: green 5px solid; */
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-inline: 40px; 
+}
+
+.image-container div {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.selected-image {
+}
+
+.selected-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+  /* border: violet 5px solid; */
+  max-width: 30vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.category-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+/* Category button container */
+.category-button-container {
+  margin-bottom: 10px;
+  margin-inline: 5px;
+  /* border: blueviolet 5px solid; */
+}
+
+/* Style of category buttons */
+.category-button {
+  /* background-color: whitesmoke; */
+  color: #282c34;
+  border:  #282c34 3px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* Style of active category buttons */
+.category-button.active {
+  /* background-color: #0056b3; */
+  background-color: #282c34;
+  color: whitesmoke
+}
+
+/* Image buttons container */
+.image {
+}
+
+/* Styling for image buttons */
+.image-buttons {
+  display: none;
+  margin-top: 10px;
+  /* border: red 5px solid; */
+  flex-wrap: wrap;
+}
+
+.image-buttons.active {
+  display: flex;
+}
+
+/* style of image buttons */
+.image-buttons button {
+  /* background-color: #007bff; */
+  color: #282c34;
+  border: skyblue 3px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+/* style of active image buttons */
+.image-buttons button.active {
+  background-color: skyblue;
+  color: whitesmoke;
+}
+
+.button-headers {
+  color: #282c34;
 }
