@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/static/css/main.08747df1.css",
+    "main.js": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/static/js/main.e51b2da0.js",
+    "static/js/787.9625f103.chunk.js": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/static/js/787.9625f103.chunk.js",
+    "index.html": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/index.html",
+    "main.08747df1.css.map": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/static/css/main.08747df1.css.map",
+    "main.e51b2da0.js.map": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/static/js/main.e51b2da0.js.map",
+    "787.9625f103.chunk.js.map": "/josuegonzalez2.github.io/Alpaca-Image-generator-website/static/js/787.9625f103.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08747df1.css",
+    "static/js/main.e51b2da0.js"
+  ]
+}
